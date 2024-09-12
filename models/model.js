@@ -18,7 +18,7 @@ const todoSchema = new mongoose.Schema({
   },
   issues: {
     type: Number,
-   
+
   },
   resolved: {
     type: Number,
@@ -26,11 +26,11 @@ const todoSchema = new mongoose.Schema({
   },
   comment: {
     type: Number,
- 
+
   },
   progress: {
     type: Number,
-  
+
   },
 });
 
